@@ -14,13 +14,13 @@ const faces = {
       ` },
 
   left: { rotX: 0, rotY: 90, title: "Significance — Why was this person important", body: `
-    <ol class = "significance-list">
+    <ol class = "traits-list">
     <li> <span class = "f-bold">Scince Communicator: </span>He is consider one of the frist and most influential science communicators. At that moment when he was alive many scientists didn't like sharing their knowledge with the public, but Carl was different, he believed that knowledge should be shared with everyone. Therefore he became betten known as a famous TV personality rather as a scientist who made important theories or discoveries, although he did make significant contributions to science.</li>
     <li> <span class = "f-bold">Contributions to Science: </span>He made important contributions to the field of planetary science, including research on the atmospheres of Venus and Jupiter, and the surface of Mars. He also played a key role in the development of the SETI (Search for Extraterrestrial Intelligence) program.</li>
     <li> <span class = "f-bold">Legacy: </span>His work continues to inspire scientists, educators, and the general public. His books and TV series have been widely acclaimed and have had a lasting impact on popular culture.</li>
     ` },
   top: { rotX: -90, rotY: 0, title: "Obstacles — What challenges did this person overcome", body: `
-    <ol class = "obstacles-list">
+    <ol class = "traits-list">
     <li> <span class = "f-bold">Criticism from other scientists: </span>Many scientists did not respect his work as a communicator. They believed that appearing on TV made science less serious, but he continued sharing knowledge with the public. 
     </li>
     <li> <span class = "f-bold"> Difficulty being accepted in academia: </span> Because of his popularity, some universities did not fully support him or give him important positions.
