@@ -55,14 +55,15 @@ window.showFace = showFace; // Expose to global for inline onclick handlers
 const cube = document.getElementById('cube');
 let idleAngle = 0;
 let idleRunning = true;
-
-/*const idle = setInterval(() => {
+cube.style.transition = `transform 0.8s cubic-bezier(1.1, 0, 0.2, 1)`;
+const idle = setInterval(() => {
     if (!idleRunning) { clearInterval(idle); return; }
-    idleAngle += 0.4;
+    console.log(idleAngle);
+    idleAngle += 1.1;
     cube.style.transform = `rotateX(-8deg) rotateY(${idleAngle}deg)`;
     if (idleAngle >= 360) {
         idleRunning = false;
         cube.style.transform = `rotateX(0deg) rotateY(0deg)`;
+        cube.style.transition = `transform 0.8s cubic-bezier(0.4, 0, 0.2, 1)`;
     }
 }, 16);
-*/
