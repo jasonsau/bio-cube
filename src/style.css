@@ -313,3 +313,27 @@ body-equiv {
         transform: rotateX(-90deg) translateZ(135px);
     }
 }
+
+.traits-list {
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.f-bold {
+    font-weight: 700;
+}
+
+.image-pale {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+.image-profile {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
