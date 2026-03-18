@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bio-cube</title>
+  </head>
+  <body>
+
+<div class="scene-wrapper">
+  <div class="scene">
+    <div class="cube" id="cube">
+      <!-- Front: Identity -->
+      <div class="face face-front">
+        <span class="face-label">Identity</span>
+        <span class="face-icon">✦</span>
+        <span class="face-name">Carl Edward Sagan</span>
+        <span class="face-detail">November 9, 1934 – December 20, 1996<br>American astronomer, astrophysicist, and science communicator
+      </div>
+      <!-- Back: Background -->
+      <div class="face face-back">
+        <span class="face-label">Background</span>
+        <span class="face-icon">◎</span>
+        <span class="face-name">Origins</span>
+        <span class="face-detail">Born in Tokyo, 1990<br>Moved to the US at 18<br>Studied at RISD</span>
+      </div>
+      <!-- Right: Skills -->
+      <div class="face face-right">
+        <span class="face-label">Skills</span>
+        <span class="face-icon">◈</span>
+        <span class="face-name">Expertise</span>
+        <span class="face-detail">UX Research · Figma<br>Motion Design<br>Frontend Dev</span>
+      </div>
+      <!-- Left: Passions -->
+      <div class="face face-left">
+        <span class="face-label">Passions</span>
+        <span class="face-icon">◉</span>
+        <span class="face-name">Interests</span>
+        <span class="face-detail">Ceramics · Hiking<br>Speculative fiction<br>Jazz piano</span>
+      </div>
+      <!-- Top: Achievements -->
+      <div class="face face-top">
+        <span class="face-label">Achievements</span>
+        <span class="face-icon">◆</span>
+        <span class="face-name">Highlights</span>
+        <span class="face-detail">3× Awwwards winner<br>TEDx speaker 2023<br>Forbes 30 Under 30</span>
+      </div>
+      <!-- Bottom: Contact -->
+      <div class="face face-bottom">
+        <span class="face-label">Contact</span>
+        <span class="face-icon">◇</span>
+        <span class="face-name">Get in Touch</span>
+        <span class="face-detail">hello@janedoe.io<br>@janedoe · LinkedIn<br>Portfolio: janedoe.io</span>
+      </div>
+    </div>
+  </div>
+
+  <div class = "navigation-wrapper">
+  <div class="nav-grid">
+    <button class="nav-btn active" id="btn-front" onclick="showFace('front')">
+      <span class="btn-icon">✦</span>
+      <span>Front</span>
+      <span class="btn-label">Identity</span>
+    </button>
+    <button class="nav-btn" id="btn-back" onclick="showFace('back')">
+      <span class="btn-icon">◎</span>
+      <span>Back</span>
+      <span class="btn-label">Background</span>
+    </button>
+    <button class="nav-btn" id="btn-right" onclick="showFace('right')">
+      <span class="btn-icon">◈</span>
+      <span>Right</span>
+      <span class="btn-label">Skills</span>
+    </button>
+    <button class="nav-btn" id="btn-left" onclick="showFace('left')">
+      <span class="btn-icon">◉</span>
+      <span>Left</span>
+      <span class="btn-label">Passions</span>
+    </button>
+    <button class="nav-btn" id="btn-top" onclick="showFace('top')">
+      <span class="btn-icon">◆</span>
+      <span>Top</span>
+      <span class="btn-label">Achievements</span>
+    </button>
+    <button class="nav-btn" id="btn-bottom" onclick="showFace('bottom')">
+      <span class="btn-icon">◇</span>
+      <span>Bottom</span>
+      <span class="btn-label">Contact</span>
+    </button>
+  </div>
+    <div class="info-panel" id="info-panel">
+      <h3 id="info-title">Identity — Jane Doe</h3>
+      <p id="info-body">Product Designer based in San Francisco. Click any face button above to rotate the cube and explore different aspects of the biography.</p>
+    </div>
+
+
+  </div>
+
+</div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
