@@ -29,7 +29,7 @@ const faces = {
     </li>
     </ol>
     ` },
-  bottom: { rotX: 90, rotY: 0, title: "Contact — Get in Touch", body: `<span>This quote has an important context that you need to understand. In 1990 a photograph of Earth was taken by Voyager 1 from 6 billion kilometers away. Carl Sagan suggested turning the spacecraft around to take the photo when he saw it he said this quote</span>
+  bottom: { rotX: 90, rotY: 0, title: "Quote", body: `<span>This quote has an important context that you need to understand. In 1990 a photograph of Earth was taken by Voyager 1 from 6 billion kilometers away. Carl Sagan suggested turning the spacecraft around to take the photo when he saw it he said this quote</span>
     <img src = "https://science.nasa.gov/wp-content/uploads/2024/04/pale-blue-dot-revised.jpg" alt="Pale Blue Dot" class = "image-pale"/>` }
 
 };
